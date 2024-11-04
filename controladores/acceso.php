@@ -20,6 +20,7 @@ if ($usuario === 'Donoban' && $contrasena === 'donoban123') {
         // Si no se seleccionó 'Recordarme', elimina las cookies
         setcookie('usuario', '', time() - 3600, '/');
         setcookie('contrasena', '', time() - 3600, '/');
+        setcookie('idioma', '', time() - 3600, '/');
     }
 
     header("Location: /pantallas/panelPrincipal.php");
