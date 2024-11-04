@@ -1,0 +1,168 @@
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el login*/
+
+.bienvenido{
+    text-align: center;
+    font-size: 40px;
+    font-family: fantasy, "Comic Sans";
+    margin-top: 50px;
+    
+}
+
+legend{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.login{
+    width: 400px;
+    margin: auto;
+    margin-top: 70px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input[type=text], input[type=password]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit]{
+    background-color: hsl(0, 0%, 39%);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.recuerdame{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #999;
+}
+
+
+/*Estilos para el panel principal*/
+
+header{
+    background-color: hsl(0, 0%, 20%);
+    color: #fff;
+    padding: 6px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: fantasy, "comic sans";
+    margin-top:0;
+}
+
+.presentacion{
+    margin-top: 99px;
+    background-color: hsl(0, 0%, 30%);
+    text-align: left;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: hsl(0, 0%, 100%)
+}
+
+.presentacion h2:first-of-type {
+    text-align: left;
+    font-size: 25px;
+}
+
+.presentacion h2:nth-of-type(2) {
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 0;
+}
+
+#tipoIdioma {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #999;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    margin-top: 0;
+    right: 0;
+}
+
+#cerrarSesion {
+    float: right;
+    margin-top: 0;
+    margin-right: 20px;
+    font-size: 18px;
+    color: hsl(0, 0%, 100%);
+    background: hsl(0, 100%, 50%);
+    border: none;
+    border-radius: 5px;
+    padding: 4px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Estilos para el panel de productos*/
+
+#regresar{
+    float: left;
+    margin-top: 0;
+    margin-left: 15px;
+    font-size: 18px;
+    color: #999;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Estilos para la tabla */
+.tabla-productos {
+    width: 50%;
+    margin: 20px auto; /* Ajusta los márgenes laterales a 'auto' */
+    border-collapse: collapse;
+    text-align: center;
+}
+
+
+.tabla-productos th, .tabla-productos td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.tabla-productos th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.tabla-productos td a {
+    text-decoration: none;
+    color: #333;
+}
+
+.tabla-productos tr:hover {
+    background-color: #f1f1f1;
+}
+

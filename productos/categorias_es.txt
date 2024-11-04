@@ -1,0 +1,100 @@
+[
+    {
+        "id": 1,
+        "categoria": "Pantalones",
+        "nombre": "Pantalón Deportivo",
+        "descripcion": "Pantalón de entrenamiento con tela elástica y ajuste cómodo",
+        "precio": 25.99
+    },
+    {
+        "id": 2,
+        "categoria": "Camisas",
+        "nombre": "Camisa Formal",
+        "descripcion": "Camisa de algodón de alta calidad para ocasiones formales",
+        "precio": 30.50
+    },
+    {
+        "id": 3,
+        "categoria": "Camisetas",
+        "nombre": "Camiseta Básica",
+        "descripcion": "Camiseta de algodón suave y transpirable, ideal para uso diario",
+        "precio": 15.00
+    },
+    {
+        "id": 4,
+        "categoria": "Chandals",
+        "nombre": "Conjunto Deportivo",
+        "descripcion": "Conjunto deportivo de dos piezas, ideal para ejercicios",
+        "precio": 45.00
+    },
+    {
+        "id": 5,
+        "categoria": "Mallas",
+        "nombre": "Mallas Deportivas",
+        "descripcion": "Mallas ajustadas para ejercicios de alta intensidad",
+        "precio": 20.00
+    },
+    {
+        "id": 6,
+        "categoria": "Polos",
+        "nombre": "Polo Casual",
+        "descripcion": "Polo casual con tejido ligero y cómodo",
+        "precio": 18.00
+    },
+    {
+        "id": 7,
+        "categoria": "Sudaderas",
+        "nombre": "Sudadera con Capucha",
+        "descripcion": "Sudadera cómoda con capucha y bolsillo frontal",
+        "precio": 28.00
+    },
+    {
+        "id": 8,
+        "categoria": "Chaquetas",
+        "nombre": "Chaqueta Impermeable",
+        "descripcion": "Chaqueta resistente al agua para exteriores",
+        "precio": 60.00
+    },
+    {
+        "id": 9,
+        "categoria": "Forros Polares",
+        "nombre": "Forro Polar",
+        "descripcion": "Forro polar cálido y suave para climas fríos",
+        "precio": 35.00
+    },
+    {
+        "id": 10,
+        "categoria": "Chalecos",
+        "nombre": "Chaleco Acolchado",
+        "descripcion": "Chaleco acolchado para mantener el calor sin limitar movimiento",
+        "precio": 25.00
+    },
+    {
+        "id": 11,
+        "categoria": "Abrigos",
+        "nombre": "Abrigo de Invierno",
+        "descripcion": "Abrigo largo con aislamiento para el invierno",
+        "precio": 75.00
+    },
+    {
+        "id": 12,
+        "categoria": "Jerseys",
+        "nombre": "Suéter de Lana",
+        "descripcion": "Suéter de lana suave y cálido para el frío",
+        "precio": 40.00
+    },
+    {
+        "id": 13,
+        "categoria": "Corbatas",
+        "nombre": "Corbata Clásica",
+        "descripcion": "Corbata de seda en colores sobrios para eventos formales",
+        "precio": 15.00
+    },
+    {
+        "id": 14,
+        "categoria": "Zapatos",
+        "nombre": "Zapatos Casual",
+        "descripcion": "Zapatos cómodos y versátiles para uso diario",
+        "precio": 50.00
+    }
+]
