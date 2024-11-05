@@ -66,9 +66,9 @@ class ListaProducto {
     
             if ($productos !== null) {
                 $tablaProductos = '<table class="tabla-productos">';
-                $tablaProductos .= '<tr><th>Id</th><th>' . ($idioma === 'en' ? 'Nombre' : 'Nombre') .
-                 '</th><th>' . ($idioma === 'en' ? 'Descripción' : 'Descripción') . 
-                 '</th><th>' . ($idioma === 'en' ? 'Precio' : 'Precio') . '</th></tr>';
+                $tablaProductos .= '<tr><th>Id</th><th>' . ($idioma === 'en' ? 'Name' : 'Nombre') .
+                 '</th><th>' . ($idioma === 'en' ? 'Description' : 'Descripción') . 
+                 '</th><th>' . ($idioma === 'en' ? 'Price' : 'Precio') . '</th></tr>';
     
                 foreach ($productos as $producto) {
                     // Ajusta las claves para que funcionen con el idioma correcto
