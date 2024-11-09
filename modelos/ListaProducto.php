@@ -13,7 +13,7 @@ class ListaProducto {
             $this->encabezado = 'Categoría';
         } elseif ($idioma === 'en') {
             $this->archivo = '../productos/categorias_en.txt';
-            $this->encabezado = 'Categoría'; 
+            $this->encabezado = 'Category'; 
         } else {
             throw new Exception("Idioma no soportado");
         }
@@ -35,20 +35,21 @@ class ListaProducto {
     }
 
     private function generarTabla($productos) {
-        $tabla = '<table class="tabla-productos">';
-        $tabla .= '<tr><th>' . $this->encabezado . '</th></tr>';
+        $tabla = '<table class="tabla-categoria" border="1">';
+        $tabla .= '<tr><th>' . htmlspecialchars($this->encabezado) . '</th></tr>';
     
         foreach ($productos as $producto) {
             // Verifica si la categoría está definida en el producto
             if (isset($producto['category'])) {
-                $tabla .= '<tr><td><a href="/pantallas/productos.php?categoria=' . 
-                urlencode($producto['category']) . '">' . htmlspecialchars($producto['category']) . 
-                '</a></td></tr>';
+                $categoria = htmlspecialchars($producto['category']);
             } elseif (isset($producto['categoria'])) {
-                $tabla .= '<tr><td><a href="/pantallas/productos.php?categoria=' . 
-                urlencode($producto['categoria']) . '">' . htmlspecialchars($producto['categoria']) . 
-                '</a></td></tr>';
+                $categoria = htmlspecialchars($producto['categoria']);
+            } else {
+                continue;
             }
+    
+            // Genera la fila con el enlace que abarca toda la celda
+            $tabla .= '<tr><td><a href="productos.php?categoria=' . urlencode($categoria) . '">' . $categoria . '</a></td></tr>';
         }
     
         $tabla .= '</table>';

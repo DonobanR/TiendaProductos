@@ -138,7 +138,15 @@ h1 {
     cursor: pointer;
 }
 
-/* Estilos para la tabla */
+/* Estilos para la tabla categoría */
+.tabla-categoria {
+    width: 20%;
+    margin: 20px auto; /* Ajusta los márgenes laterales a 'auto' */
+    border-collapse: collapse;
+    text-align: center;
+}
+
+/* Estilos para la tabla productos */
 .tabla-productos {
     width: 50%;
     margin: 20px auto; /* Ajusta los márgenes laterales a 'auto' */
@@ -146,23 +154,28 @@ h1 {
     text-align: center;
 }
 
-
-.tabla-productos th, .tabla-productos td {
+.tabla-productos th, .tabla-categoria th, 
+.tabla-productos td, .tabla-categoria td {
     padding: 10px;
     border: 1px solid #ddd;
 }
 
-.tabla-productos th {
+.tabla-productos th, .tabla-categoria th {
     background-color: #4CAF50;
     color: white;
 }
 
-.tabla-productos td a {
+.tabla-productos td a, .tabla-categoria td a {
     text-decoration: none;
     color: #333;
+    display: block;
 }
 
-.tabla-productos tr:hover {
+.tabla-productos tr:hover,  .tabla-categoria tr:hover{
     background-color: #f1f1f1;
 }
+
+
+
+
 
